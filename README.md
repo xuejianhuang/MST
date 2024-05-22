@@ -75,7 +75,7 @@ Code for the paper “Multi-View Spatio-Temporal Learning with Dual Dynamic Grap
 ## Datasets
 The experiments use two publicly real-world social network rumor datasets: Pheme and Weibo.
 * The Raw Pheme dataset can be obtained from https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078 (or https://www.dropbox.com/s/j8x105s60ow997f/all-rnr-annotated-threads.zip?dl=0).
-* The raw Weibo dataset can be downloaded from https://www.dropbox.com/s/46r50ctrfa0ur1o/rumdect.zip?dl=0 .  More information about this dataset is available here 'https://github.com/majingCUHK/Rumor_GAN'.
+* The raw Weibo dataset can be downloaded from https://www.dropbox.com/s/46r50ctrfa0ur1o/rumdect.zip?dl=0. More information about this dataset is available here 'https://github.com/majingCUHK/Rumor_GAN'.
 ## Dependencies
 * torch_geometric==2.5.2
 * torch_scatter==2.1.2
