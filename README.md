@@ -92,8 +92,8 @@ The experiments use two publicly real-world social network rumor datasets: Pheme
 * Step 1：Run pheme_pre.py and weibo_pre.py to process the raw files of the two datasets.
 * Step 2: Run getTwittergraph.py and getWeibograph.py to generate files such as node2idx_mid.txt, mid2text.txt, mid2user.txt, propagation_node.npy, propagation_node_idx.npy, label.npy, and others.
 * Step 3: Run getTextEmbedding.py to generate the text semantic feature matrix file text_embeddings.npy.
-* Step 4: Run the command python -m visdom.server to start the Visdom server for visualizing the training process.
-* Step 5: Run python main.py --dataset weibo --model dual to start training, validation, and testing. You can specify the dataset and model by using dataset and model arguments.
+* Step 4: Run the command ‘python -m visdom.server’ to start the Visdom server for visualizing the training process.
+* Step 5: Run ‘python main.py --dataset weibo --model dual’ to start training, validation, and testing. You can specify the dataset and model by using dataset and model arguments.
 
 ## Note
 * The default configuration of the code assumes that the number of states in the dynamic graph is 3. Trying other values requires modifying the configuration and some code.
