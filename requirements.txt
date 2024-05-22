@@ -1,0 +1,10 @@
+torch_geometric==2.5.2
+torch_scatter==2.1.2
+torch==1.12.1
+scipy==1.5.4
+tqdm==4.63.1
+numpy==1.21.5
+pandas==1.1.5
+visdom==0.2.4
+transformers==4.17.0
+jieba==0.42.1
