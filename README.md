@@ -1,5 +1,11 @@
-# Multi-view spatio-temporal learning method based on dual dynamic graph convolutional networks
-Code for the paper “Multi-View Spatio-Temporal Learning with Dual Dynamic Graph Convolutional Networks for Rumor Detection”.
+# Multiview spatio-temporal learning method based on dual dynamic graph convolutional networks
+Code for the paper “Multiview Spatio-Temporal Learning with Dual Dynamic Graph Convolutional Networks for Rumor Detection”.
+
+Detecting rumors on social networks is increasingly important due to their rapid dissemination and negative societal impact. The structural characteristics of propagation play a crucial role in rumor detection. However, most current graph neural network-based methods focus on spatial structural features, overlooking the temporal structural features or exploring spatio-temporal features from a single perspective, failing to comprehensively and finely learn representations of dynamic events. Therefore, this article proposes a multiview spatio-temporal feature learning method based on dual dynamic graph convolutional networks. 
+
+<div align="center">
+<img src='./model.png' width='80%'>
+</div>
 
 * Make sure the following files are present as per the directory structure before running the code：
 ```
@@ -95,10 +101,29 @@ The experiments use two publicly real-world social network rumor datasets: Pheme
 * Step 4: Run the command ‘python -m visdom.server’ to start the Visdom server for visualizing the training process.
 * Step 5: Run ‘python main.py --dataset weibo --model dual’ to start training, validation, and testing. You can specify the dataset and model by using dataset and model arguments.
 
+## Citation
+If you find this project helps your research, please kindly consider citing our project or papers in your publications.
+```
+@ARTICLE{10836129,
+  author={Huang, Xuejian and Ma, Tinghuai and Jin, Wenwen and Rong, Huan and Jia, Li and Yang, Bin and Xie, Xintong},
+  journal={IEEE Transactions on Computational Social Systems}, 
+  title={Multiview Spatio-Temporal Learning With Dual Dynamic Graph Convolutional Networks for Rumor Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-11},
+  keywords={Feature extraction;Social networking (online);Semantics;Graph convolutional networks;Electronic mail;Data mining;Blogs;Information science;Spatiotemporal phenomena;Noise;Cross-attention;dynamic graph convolutional networks (DGCN);multiview learning;rumor detection;spatio-temporal features},
+  doi={10.1109/TCSS.2024.3520105}}
+```
+
 ## Note
 * The default configuration of the code assumes that the number of states in the dynamic graph is 3. Trying other values requires modifying the configuration and some code.
 * The hyperparameters of different models may vary, requiring adjustments to the configuration file.
 * The data preprocessing process takes some time, and some of the generated files are quite large, making it inconvenient to upload them. We will share the preprocessing results later on.
+
+## Acknowledgements
+Thank you to **Mengzhu Sun** (Beijing University of Posts and Telecommunications, China), **Xi Zhang** (Beijing University of Posts and Telecommunications, China), **Jiaqi Zheng** (Beijing University of Posts and Telecommunications, China), **Guixiang Ma** (University of Illinois at Chicago) for providing the base model.
+
 
 
 
