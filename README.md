@@ -109,9 +109,9 @@ If you find this project helps your research, please kindly consider citing our 
   journal={IEEE Transactions on Computational Social Systems}, 
   title={Multiview Spatio-Temporal Learning With Dual Dynamic Graph Convolutional Networks for Rumor Detection}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-11},
+  volume={12},
+  number={5},
+  pages={2469-2479},
   keywords={Feature extraction;Social networking (online);Semantics;Graph convolutional networks;Electronic mail;Data mining;Blogs;Information science;Spatiotemporal phenomena;Noise;Cross-attention;dynamic graph convolutional networks (DGCN);multiview learning;rumor detection;spatio-temporal features},
   doi={10.1109/TCSS.2024.3520105}}
 ```
